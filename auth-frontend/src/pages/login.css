@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  z-index: 10;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  box-sizing: border-box;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #2A0C3E;
+}
+
+.leftcontainer {
+    width: 50%;
+}
+
+.rightcontainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius:80px 0 0 80px; ;
+}
+
+.logdragon-image {
+    width: auto;
+    height: 80%;
+    position: relative;
+    left: 5%;
+    top: 15%;
+}
+
+.login-form {
+    width: 80%;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    
+}
+
+.login-button{
+    padding: 10px 20px;
+  color: white;
+  background-color: #2A0C3E;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: max-content;
+  margin-left: 45%;
+}
+
+.login-button:hover {
+    background-color: white;
+    color: #2A0C3E;
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #8f8a8a;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.signin-input-field {
+    width: 90%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #8f8a8a;
+    border-radius: 8px;
+    font-size: 16px;
+}
