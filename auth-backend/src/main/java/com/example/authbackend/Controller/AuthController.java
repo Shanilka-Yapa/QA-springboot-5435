@@ -1,4 +1,4 @@
-package com.example.authbackend.Controller;
+package com.example.authbackend.controller;
 import java.util.Optional;
 import com.example.authbackend.dto.RegisterRequest;
 import com.example.authbackend.model.User;
@@ -58,7 +58,7 @@ public class AuthController {
     }
 
     @PostMapping("/login")
-public ResponseEntity<Map<String, String>> login(@RequestBody Map<String, String> req) {
+    public ResponseEntity<Map<String, String>> login(@RequestBody Map<String, String> req) {
     Map<String, String> resp = new HashMap<>();
     
     String email = req.get("email");

@@ -1,0 +1,5 @@
+com\example\authbackend\AuthBackendApplication.class
+com\example\authbackend\repository\UserRepository.class
+com\example\authbackend\dto\RegisterRequest.class
+com\example\authbackend\model\User.class
+com\example\authbackend\controller\AuthController.class

@@ -1,21 +1,13 @@
 package com.example.authbackend.dto;
 
 public class RegisterRequest {
-    private String firstname;
-    private String lastname;
     private String username;
     private String email;
     private String password;
+    private String firstname; // ✅ Add this
+    private String lastname;  // ✅ Add this
 
-    public RegisterRequest() {}
-
-    // getters and setters
-    public String getFirstname() { return firstname; }
-    public void setFirstname(String firstname) { this.firstname = firstname; }
-
-    public String getLastname() { return lastname; }
-    public void setLastname(String lastname) { this.lastname = lastname; }
-
+    // Getters and setters
     public String getUsername() { return username; }
     public void setUsername(String username) { this.username = username; }
 
@@ -24,4 +16,10 @@ public class RegisterRequest {
 
     public String getPassword() { return password; }
     public void setPassword(String password) { this.password = password; }
+
+    public String getFirstname() { return firstname; }
+    public void setFirstname(String firstname) { this.firstname = firstname; }
+
+    public String getLastname() { return lastname; }
+    public void setLastname(String lastname) { this.lastname = lastname; }
 }
